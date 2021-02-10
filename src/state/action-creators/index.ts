@@ -2,11 +2,7 @@ import { ActionType } from "../action-types";
 import { Dispatch } from "redux";
 import { Action } from "../actions";
 
-// const increment = () => {
-//   return {
-//     type: ActionType.INCREMENT,
-//   };
-// };
+// Two different approaches
 
 const increment = () => {
   return (dispatch: Dispatch<Action>) => {

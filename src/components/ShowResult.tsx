@@ -1,4 +1,5 @@
-import React from 'react'
+import React, {Fragment} from 'react'
+
 import {useSelector} from 'react-redux';
 import {useTypedSelector} from '../hooks/useTypedSelector';
 
@@ -6,10 +7,9 @@ const ShowResult:React.FC = () => {
     const {sum} = useTypedSelector((state:any) => state.count);
  
     return (
-        <div>
+        <Fragment>
             <h2>{sum}</h2>
-        
-        </div>
+        </Fragment>
     )
 }
 
