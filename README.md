@@ -1,1 +1,1 @@
-# Redux TypeScript Counter
+# Redux Typescript Counter
